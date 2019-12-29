@@ -133,12 +133,12 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #000000
+    color: #fed136
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 88%;
-    font-weight: 500;
+    font-size: 90%;
+    font-weight: 510;
     padding: .75em 0;
     letter-spacing: 1px;
     color: rgb(255, 255, 255);
@@ -147,7 +147,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #000000
+    color:#fed136
 }
 
 @media (min-width:992px) {
@@ -709,3 +709,31 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #fed136
 }
+
+.s-m{
+    position: relative;
+    text-align: center;
+  }
+  .s-m a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background:transparent;
+    color: white;
+    margin: 0 0;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 25px;
+  }
+  .s-m a:hover{
+    background: #e67e22;
+  }
+  .s-m a i{
+    transition: 0.4s all;
+  }
+  .s-m a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+  }
+  
