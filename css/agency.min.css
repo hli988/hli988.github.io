@@ -172,7 +172,7 @@ img::-moz-selection {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #ffffff
+        background-color: black
     }
 
     #mainNav.navbar-shrink .navbar-brand {
