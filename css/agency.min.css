@@ -738,3 +738,7 @@ ul.social-buttons li a:hover {
     transform: scale(1.6) rotate(25deg);
   }
   
+p {
+    font-weight: 500;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
